@@ -9,24 +9,77 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.weiyu.androiddevelopmentartsearch.OkHttpActivity">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <Button
+        android:layout_height="wrap_content">
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/bt_okhttp_get"
-            android:text="get"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/bt_okhttp_post"
-            android:text="post"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/tv_okthhp_show"/>
-    </LinearLayout>
-
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_okhttp_get"
+                android:text="get"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_okhttp_post"
+                android:text="post"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_okhttp_syncGet"
+                android:text="synchronous get"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_okhttp_asyncGet"
+                android:text="asynchronous get"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_okhttp_accessHeader"
+                android:text="accessing headers"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_okhttp_postaString"
+                android:text="post a string"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_okhttp_postStream"
+                android:text="post streaming"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_okhttp_postaFile"
+                android:text="post a file"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_okhttp_postform"
+                android:text="post form parameters"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_okhttp_postmulitipartreq"
+                android:text="post a multipart request"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_okhttp_parseJson"
+                android:text="parse Json Response with Gson"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_okhttp_responsecaching"
+                android:text="response caching"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_okthhp_show"/>
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>
