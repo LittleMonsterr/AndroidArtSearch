@@ -28,7 +28,8 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".BinderPoolActivity"></activity>
+        <activity android:name=".BinderPoolActivity" />
+        <activity android:name=".OkHttpActivity"></activity>
     </application>
 
 </manifest>
