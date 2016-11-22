@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0088bb">
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/iv_chapter5_notificon"
+        android:background="#465654"
+        android:scaleType="centerInside"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_chapter5_notifmsg"
+        android:layout_alignParentRight="true"
+        android:text="textview"
+        android:layout_margin="10dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_chapter5_notifopenactivity"
+        android:layout_margin="10dp"
+        android:text="open_MainActivity"
+        android:textSize="15sp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_chapter5_notifmsg"/>
+</RelativeLayout>
